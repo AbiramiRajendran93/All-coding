@@ -29,7 +29,8 @@ public class LearnFindElements {
 		int size = driver.
 				findElementsByXPath("//table[@class='DataTable TrainList']//tr[1]/td").size();
 		System.out.println(size);
-		List<WebElement> allCol = driver.findElementsByXPath("//table[@class='DataTable TrainList']//tr[1]/td");
+		List<WebElement> allCol = driver.
+				findElementsByXPath("//table[@class='DataTable TrainList']//tr[1]/td");
 		allCol.get(0).click();
 		
 	}
