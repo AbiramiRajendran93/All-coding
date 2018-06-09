@@ -1,5 +1,6 @@
 package week2.day1;
 
+
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
@@ -16,7 +17,7 @@ public class Login extends WebDriverListener{
 		// Load URL
 		driver1.get("http://leaftaps.com/opentaps/");
 		
-		driver1.findElement(By.id("username1")).sendKeys("Demo");
+	//	driver1.findElement(By.id("username1")).sendKeys("Demo");
 		// maximize browser
 	//	driver1.manage().window().maximize();
 		
@@ -59,49 +60,8 @@ public class Login extends WebDriverListener{
 		//driver1.close();
 		
 	*/	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
